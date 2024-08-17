@@ -31,12 +31,12 @@ Copyright Twitter, Inc and other contributors
 Usage
 -----
 
-You can use these image sets using hte `custom` parameter.
+You can use these image sets using hte `family` parameter.
 
-    \usepackage[custom=twemoji-pdf]{bxcoloremoji}% use twemoji-pdf set
-    \usepackage[custom=twemoji-png]{bxcoloremoji}% use twemoji-png set
+    \usepackage[family=twemoji-pdf]{bxcoloremoji}% use twemoji-pdf set
+    \usepackage[family=twemoji-png]{bxcoloremoji}% use twemoji-png set
 
-NB. For compatibility with v0.x, you can omit `custom=` and simply write
+NB. For compatibility with v0.x, you can omit `family=` and simply write
 `twemoji-pdf` or `twemoji-png`. But you are encouraged to use the newer
 form.
 
@@ -50,7 +50,7 @@ Revision History
         version 0.14.
 
 [bxcoloremoji package]: https://github.com/zr-tex8r/BXcoloremoji
-[twemojis package]: https://ctan.org/pkg/twemojis
+[twemojis]: https://github.com/twitter/twemoji
 
 --------------------
 Takayuki YATO (aka. "ZR")  
